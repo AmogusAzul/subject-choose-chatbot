@@ -22,7 +22,7 @@ urlpatterns = [
 
     path('api/', include('api.urls')),
     path('chat/', include('chat.urls')),
-    path('home/', include('home.urls')),
-    path('catalog', include('subject_catalog.urls')),
+    path('', include('home.urls')),
+    path('catalog/', include('subject_catalog.urls')),
 ]
 
