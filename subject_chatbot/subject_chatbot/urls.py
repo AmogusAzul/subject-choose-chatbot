@@ -20,13 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-<<<<<<< HEAD
     path('api/', include('api.urls')),
     path('chat/', include('chat.urls')),
     path('catalog', include('subject_catalog.urls')),
-=======
-    path('api/', include('api.urls'),
-    path('chat/', include('chat.urls'),
-    path('catalog', include('subject_catalog.urls'),
->>>>>>> 741b7e362324c8db939cc254c6788f73659b2731
 ]
+
