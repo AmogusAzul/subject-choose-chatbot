@@ -1,3 +1,4 @@
 .vscode/*
 venv/
 subject_chatbot/.env
+**/__pycache__/**
