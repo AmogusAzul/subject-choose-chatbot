@@ -45,6 +45,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+LOCAL_APPS = [
+    'api.apps.ApiConfig',
+    'chat.apps.ChatConfig',
+    'subject_catalog.apps.SubjectCatalogConfig',
+]
+INSTALLED_APPS += LOCAL_APPS
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
