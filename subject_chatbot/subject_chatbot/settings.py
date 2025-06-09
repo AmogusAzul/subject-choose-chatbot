@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 LOCAL_APPS = [
     'api.apps.ApiConfig',
     'chat.apps.ChatConfig',
+    'home.apps.HomeConfig',
     'subject_catalog.apps.SubjectCatalogConfig',
 ]
 INSTALLED_APPS += LOCAL_APPS
